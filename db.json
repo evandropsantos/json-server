@@ -60,8 +60,18 @@
       "id": 9,
       "title": "Product 9",
       "category": "accessories",
-      "price": 8000,
+      "price": 3000,
       "description": "This is description about product 8"
+    },
+    {
+      "id": 10,
+      "title": "Product 10",
+      "category": "electronics",
+      "price": 3000,
+      "description": "This is description about product 10",
+      "discount": {
+        "type": "shipping"
+      }
     }
   ],
   "reviews": [
@@ -90,7 +100,7 @@
       "productId": 2
     },
     {
-      "id": 1,
+      "id": 5,
       "rating": 3,
       "comment": "Review 1 for product id 3",
       "productId": 3
